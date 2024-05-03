@@ -285,7 +285,7 @@ Transform:
   m_GameObject: {fileID: 628532615}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 17.71, z: 0}
+  m_LocalPosition: {x: 0, y: 44.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -356,7 +356,7 @@ MonoBehaviour:
   endPoint: {fileID: 628532617}
   planeAnchorPoint: {fileID: 929734041}
   v3: {x: 0, y: 0, z: 0}
-  camSpeed: 2
+  camSpeed: 0
 --- !u!4 &1477262600
 Transform:
   m_ObjectHideFlags: 0
@@ -415,8 +415,8 @@ GameObject:
   - component: {fileID: 2115352764}
   - component: {fileID: 2115352768}
   - component: {fileID: 2115352767}
-  - component: {fileID: 2115352766}
   - component: {fileID: 2115352769}
+  - component: {fileID: 2115352766}
   m_Layer: 0
   m_Name: plane
   m_TagString: Untagged
@@ -546,7 +546,6 @@ MonoBehaviour:
   manoeuvre: 0
   steerSpeed: 2
   health: 0
-  damage: 0
 --- !u!114 &2115352769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,7 +559,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2288660594248811882, guid: 8b74533414b9bd94bbf142a8d0863c44, type: 3}
-  _gunpPosn: {fileID: 2005715331}
+  gunpPos: {fileID: 2005715331}
+  fireSpeed: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
