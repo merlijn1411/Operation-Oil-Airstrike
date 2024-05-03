@@ -8,7 +8,7 @@ public class DestinationRoute : MonoBehaviour
     [SerializeField] private Transform planeAnchorPoint;
 
     [SerializeField] private Vector3 v3;
-    [SerializeField] float camSpeed = 2f;
+    [SerializeField] float camSpeed = 1f;
     void Start()
     {
         planeAnchorPoint.position = beginPoint.position;
