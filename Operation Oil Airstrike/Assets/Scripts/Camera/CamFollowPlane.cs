@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CamFollowPlane : MonoBehaviour
 {
-    [SerializeField] private Transform plane;
+    [SerializeField] private Transform planeAnchorPoint;
     private void LateUpdate()
     {
-        transform.position = new Vector3(plane.position.x + 0, plane.position.y + 0, plane.position.z - 10f);
+        transform.position = new Vector3(planeAnchorPoint.position.x + 0, planeAnchorPoint.position.y + 0, planeAnchorPoint.position.z - 10f);
     }
 }
