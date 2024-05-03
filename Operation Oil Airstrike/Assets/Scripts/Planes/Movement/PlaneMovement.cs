@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlaneMovement : MonoBehaviour
 {
-    private Plane _planeStats;
+    private PlaneStats _planeStatsStats;
     
     private float _horizontal;
     private float _vertical;
@@ -11,7 +11,7 @@ public class PlaneMovement : MonoBehaviour
 
     private void Start()
     {
-        _planeStats = GetComponent<Plane>();
+        _planeStatsStats = GetComponent<PlaneStats>();
         _body = GetComponent<Rigidbody2D>();
     }
 
@@ -23,6 +23,6 @@ public class PlaneMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _body.velocity = new Vector2(_horizontal * _planeStats.steerSpeed, _vertical * _planeStats.steerSpeed);
+        _body.velocity = new Vector2(_horizontal * _planeStatsStats.steerSpeed, _vertical * _planeStatsStats.steerSpeed);
     }
 }

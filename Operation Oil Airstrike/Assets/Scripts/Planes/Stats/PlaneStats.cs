@@ -1,10 +1,8 @@
 using UnityEngine;
 
-public class Plane : MonoBehaviour
+public class PlaneStats : MonoBehaviour
 {
     public float manoeuvre;
     public float steerSpeed;
-    
     public float health;
-    public float damage;
 }
