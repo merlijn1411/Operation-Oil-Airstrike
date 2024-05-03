@@ -561,6 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 2288660594248811882, guid: 8b74533414b9bd94bbf142a8d0863c44, type: 3}
   _gunpPosn: {fileID: 2005715331}
+  _fireSpeed: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
