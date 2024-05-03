@@ -356,7 +356,7 @@ MonoBehaviour:
   endPoint: {fileID: 628532617}
   planeAnchorPoint: {fileID: 929734041}
   v3: {x: 0, y: 0, z: 0}
-  camSpeed: 0
+  camSpeed: 2
 --- !u!4 &1477262600
 Transform:
   m_ObjectHideFlags: 0
@@ -372,6 +372,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1644866761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.631533
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.926548
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678629460681334810, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3715355927048437394, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e8d9332338f6514d831f10225bf5ed6, type: 3}
 --- !u!1 &2005715330
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manoeuvre: 0
   steerSpeed: 2
-  health: 0
+  health: 100
 --- !u!114 &2115352769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,3 +627,4 @@ SceneRoots:
   - {fileID: 929734041}
   - {fileID: 141499870}
   - {fileID: 628532617}
+  - {fileID: 1644866761}

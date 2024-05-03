@@ -9,13 +9,13 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject, timer);
     }
     
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        IDamageable damageable = collision.gameObject.GetComponent();
+        IDamageable damageable = other.gameObject.GetComponent<IDamageable>();
  
         if(damageable != null)
         {
-            damageable.TakeDamage(5);
+            damageable.TakeDamage(damage);
         }
     }
 }
